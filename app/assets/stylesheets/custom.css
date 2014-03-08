@@ -1,8 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
-	background-color: white;
+	background-color: #750098;
+	/*background: #750098; /* Old browsers */*/
+	font-family: 'Nunito', sans-serif;
+	color: white;
+
 }
 
 i {
 	color: lightblue;
 	font-weight: bold;
+}
+
+#logo_img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 250px;
 }
