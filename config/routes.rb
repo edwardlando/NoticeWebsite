@@ -13,6 +13,8 @@ NoticeWebsite::Application.routes.draw do
 
   get "static_pages/download"
 
+  match 'download', to: 'static_pages#download'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
