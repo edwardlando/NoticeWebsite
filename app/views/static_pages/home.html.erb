@@ -2,7 +2,14 @@
 <p>You've been noticed</p> -->
 
 
-<img src="assets/Notice.png" id="logo_img">
+<script>
+$(document).ready(function() {
+  $("#noticeFace").attr("src", "assets/images/noticeFaces/"+Math.floor(Math.random()*14)+1+".png");
+});
+</script>
+
+
+<img id="noticeFace">
 
 <h5>For any questions, email trynotice *at* gmail.com</h5>
 <!-- 
