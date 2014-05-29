@@ -5,10 +5,21 @@
 }
 
 body {
-	background-color: #9662cb;
+	/*background-color: #9662cb;*/
+	background: #af97c9; /* Old browsers */
+background: -moz-linear-gradient(45deg, #af97c9 0%, #9662cb 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#af97c9), color-stop(99%,#9662cb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* IE10+ */
+background: linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af97c9', endColorstr='#9662cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	/*background: #750098; /* Old browsers */
-	font-family: 'Nunito', sans-serif;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: "Helvetica Neue", arial;
+	/*font-weight: thin;*/
 	color: white;
+	font-size: 30px;
 
 }
 
@@ -25,7 +36,80 @@ i {
 }
 
 h5 {
-	font-family: 'Nunito', sans-serif;
+	/*font-family: 'Nunito', sans-serif;*/
 	text-align: center;
 
 }
+#noticeFace {
+	margin-top: 100px;
+	width: 400px;
+}
+#phoneNumberInput {
+ 	/*margin: 0 auto;*/
+	float: left;
+ 	/*display: block;*/
+ 	width: 450px;
+ 	height: 60px;
+ 	border-radius: 5px;
+ 	border: 1px solid purple;
+ 	padding: 5px 5px;
+ 	font-size: 25px;
+ 	font-weight: bold;
+ }
+#btnContainer {
+	width: 660px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	/*background: white;*/
+}
+ #textLinkBtn {
+ 	float: left;
+ 	font-weight: bold;
+ 	background: transparent;
+ 	color: white;
+ 	margin-left: 10px;
+ 	height: 60px;
+ 	border-radius: 5px;
+ 	border: 1px solid white;
+ 	padding: 5px 10px 5px 10px;
+ 	font-size: 15px;
+ }
+
+ #textLinkBtn:hover {
+ 	background: white;
+ 	color: purple;
+ 	cursor: pointer;
+ }
+
+ #footer {
+ 	position: absolute;
+ 	bottom: 0;
+ }
+
+ #footer li {
+ 	float: right;
+ 	list-style: none;
+ 	margin: 10px;
+ }
+
+ #footer li a {
+ 	color: white;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	opacity: 0.7;
+ }
+ #footer li a:hover {
+ 	text-decoration: underline;	
+ 	opacity: 1;
+ }
+
+ #tagLine {
+ 	
+ 	/*width: 500px;*/
+ 	/*height: 50px;*/
+ 	text-align: center;
+ 	/*margin: 0 auto;*/
+ 	margin-bottom: 20px;
+ }

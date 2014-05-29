@@ -1,5 +1,8 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
-// 	alert("hello");
+	// alert("hello");
+	$("#phoneNumberInput").keypress(function() {
+		alert("hi");
+	});
 
-// });
+});
