@@ -3,14 +3,14 @@
 
 
 <script>
-$(document).ready(function() {
-  $("#noticeFace").attr("src", "assets/images/noticeFaces/"+Math.floor(Math.random()*14)+1+".png");
-});
+  $(document).ready(function() {
+    var randomIndex = Math.floor(Math.random()*13)+1;
+    console.log(randomIndex);
+    $("#noticeFace").attr("src", "assets/noticeFaces/"+ randomIndex +".png");
+  });
 </script>
-
-
-<img id="noticeFace">
-
+<br><br><br>
+<center><img id="noticeFace" style="width:400px;"></center>
 <h5>For any questions, email trynotice *at* gmail.com</h5>
 <!-- 
 <h2>For the Rails novice (i.e. my brother Yagil)</h2>
