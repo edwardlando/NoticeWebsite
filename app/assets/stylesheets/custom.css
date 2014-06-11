@@ -5,17 +5,8 @@
 }
 
 body {
-	/*background-color: #9662cb;*/
-	background: #af97c9; /* Old browsers */
-background: -moz-linear-gradient(45deg, #af97c9 0%, #9662cb 99%); /* FF3.6+ */
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#af97c9), color-stop(99%,#9662cb)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* Opera 11.10+ */
-background: -ms-linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* IE10+ */
-background: linear-gradient(45deg, #af97c9 0%,#9662cb 99%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af97c9', endColorstr='#9662cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	/*background: #750098; /* Old browsers */
-	/*font-family: 'Nunito', sans-serif;*/
+	background-color: #9662cb;
+	
 	font-family: "Helvetica Neue", arial;
 	/*font-weight: thin;*/
 	color: white;
@@ -35,13 +26,9 @@ i {
 	width: 250px;
 }
 
-h5 {
-	/*font-family: 'Nunito', sans-serif;*/
-	text-align: center;
 
-}
 #noticeFace {
-	margin-top: 100px;
+	margin-top: 10px;
 	width: 400px;
 }
 #phoneNumberInput {
@@ -84,8 +71,17 @@ h5 {
 
  #footer {
  	position: absolute;
+ 	width: 100%;
+ 	text-align: right;
  	bottom: 0;
+ 	right:0;
  }
+
+#footer ul {
+    position:relative;
+    bottom:0;
+    right:0;
+}
 
  #footer li {
  	float: right;
@@ -110,6 +106,37 @@ h5 {
  	/*width: 500px;*/
  	/*height: 50px;*/
  	text-align: center;
+ 	font-weight: 100 !important;
+ 	/*color: #ffd466;*/
  	/*margin: 0 auto;*/
+ 	font-size: 50px;
  	margin-bottom: 20px;
+ 	margin-top:-30px;
+ }
+
+ #noticeLogo {
+ 	width: 140px;
+ 	margin-top:10px;
+ }
+
+ #rightOptions {
+ 	float: right !important;
+ 	position: right;
+ }
+
+ .container {
+ 	width: 100%;
+ 	height: 100%;
+ 	padding: 20px;
+ 	color: black;
+ }
+
+ #ypluse {
+ 	width: 350px;
+ 	clear:both;
+ }
+
+ #imageContainer {
+ 	float: right;
+ 	margin:50px;
  }
