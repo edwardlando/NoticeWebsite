@@ -140,3 +140,10 @@ i {
  	float: right;
  	margin:50px;
  }
+
+ #cuban {
+ 	display: block;
+ 	clear: both;
+ 	width: 70%;
+ 	margin: 0 auto;
+ }
