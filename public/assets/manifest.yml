@@ -3,6 +3,14 @@ Notice.png: Notice-73132017387ccb95196d67f43f1a8279.png
 Notice/index.png: Notice-73132017387ccb95196d67f43f1a8279.png
 appstoreBadge.png: appstoreBadge-1f82b2b4bf08637cad098a6663a71225.png
 appstoreBadge/index.png: appstoreBadge-1f82b2b4bf08637cad098a6663a71225.png
+cubanSlide2.jpg: cubanSlide2-64f68c396d770dbd34dc723b6c1f9325.jpg
+cubanSlide2/index.jpg: cubanSlide2-64f68c396d770dbd34dc723b6c1f9325.jpg
+cubanSlide3.png: cubanSlide3-04a0847907612d15cd329518e3151615.png
+cubanSlide3/index.png: cubanSlide3-04a0847907612d15cd329518e3151615.png
+cubanSlide5.png: cubanSlide5-d5eb4f43c5255e97d443a70d6fd29d55.png
+cubanSlide5/index.png: cubanSlide5-d5eb4f43c5255e97d443a70d6fd29d55.png
+cubanSlide6.png: cubanSlide6-68a3be67cc3ac223fae9c06350b70509.png
+cubanSlide6/index.png: cubanSlide6-68a3be67cc3ac223fae9c06350b70509.png
 noticeFaces/1.png: noticeFaces/1-ae766b530ad1b0581d446569ab9e08a1.png
 noticeFaces/1/index.png: noticeFaces/1-ae766b530ad1b0581d446569ab9e08a1.png
 noticeFaces/10.png: noticeFaces/10-1ea48096c961e6bcd0266b817cf32e52.png
@@ -35,7 +43,7 @@ ypluse.jpg: ypluse-cf2e46e1e5d28580f319ccc7eaf6acf8.jpg
 ypluse/index.jpg: ypluse-cf2e46e1e5d28580f319ccc7eaf6acf8.jpg
 application.js: application-4ecdd448d0968c2bdb727bdf67e43128.js
 application/index.js: application-4ecdd448d0968c2bdb727bdf67e43128.js
-application.css: application-f512ab5186f0749fdd329b65c93044a2.css
-application/index.css: application-f512ab5186f0749fdd329b65c93044a2.css
+application.css: application-7849b4a356f678839127f56bd995e57f.css
+application/index.css: application-7849b4a356f678839127f56bd995e57f.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
