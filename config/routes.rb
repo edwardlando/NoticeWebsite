@@ -17,7 +17,6 @@ NoticeWebsite::Application.routes.draw do
   
   match 'about', to: 'static_pages#about'
 
-  match 'cuban', to: 'static_pages#cuban'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
