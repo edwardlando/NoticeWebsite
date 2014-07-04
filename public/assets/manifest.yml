@@ -11,6 +11,14 @@ cubanSlide5.png: cubanSlide5-d5eb4f43c5255e97d443a70d6fd29d55.png
 cubanSlide5/index.png: cubanSlide5-d5eb4f43c5255e97d443a70d6fd29d55.png
 cubanSlide6.png: cubanSlide6-68a3be67cc3ac223fae9c06350b70509.png
 cubanSlide6/index.png: cubanSlide6-68a3be67cc3ac223fae9c06350b70509.png
+icon.jpg: icon-a666a49fd0370616d261fc583ab91ecb.jpg
+icon/index.jpg: icon-a666a49fd0370616d261fc583ab91ecb.jpg
+icon2.jpg: icon2-ad9d40c32bbda08f7486da34800bed33.jpg
+icon2/index.jpg: icon2-ad9d40c32bbda08f7486da34800bed33.jpg
+icon3.jpg: icon3-75a6b99892f37c69b836838ecb6ccb3c.jpg
+icon3/index.jpg: icon3-75a6b99892f37c69b836838ecb6ccb3c.jpg
+logoBlack.png: logoBlack-5ba6370827054f628ff5adb87142a227.png
+logoBlack/index.png: logoBlack-5ba6370827054f628ff5adb87142a227.png
 noticeFaces/1.png: noticeFaces/1-ae766b530ad1b0581d446569ab9e08a1.png
 noticeFaces/1/index.png: noticeFaces/1-ae766b530ad1b0581d446569ab9e08a1.png
 noticeFaces/10.png: noticeFaces/10-1ea48096c961e6bcd0266b817cf32e52.png
@@ -43,7 +51,7 @@ ypluse.jpg: ypluse-cf2e46e1e5d28580f319ccc7eaf6acf8.jpg
 ypluse/index.jpg: ypluse-cf2e46e1e5d28580f319ccc7eaf6acf8.jpg
 application.js: application-4ecdd448d0968c2bdb727bdf67e43128.js
 application/index.js: application-4ecdd448d0968c2bdb727bdf67e43128.js
-application.css: application-7849b4a356f678839127f56bd995e57f.css
-application/index.css: application-7849b4a356f678839127f56bd995e57f.css
+application.css: application-4c63d16810039cb6daff29b8e0e8f57f.css
+application/index.css: application-4c63d16810039cb6daff29b8e0e8f57f.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
