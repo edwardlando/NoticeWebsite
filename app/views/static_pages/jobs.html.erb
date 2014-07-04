@@ -1,2 +1,96 @@
-<h1>StaticPages#jobs</h1>
-<p>Find me in app/views/static_pages/jobs.html.erb</p>
+<script>
+  $(document).ready(function() {
+    document.body.style.backgroundColor="white";
+    $("#logo").attr("src", "assets/logoBlack.png");
+    $("#icon").attr("src", "assets/icon2.jpg");
+    $("a").css("color", "black");
+    $("#footer").hide();
+  });
+</script>
+<style type="text/css">
+	#footer {
+		display: none;
+		opacity: 0;
+	}
+	
+	h1, h2, h3, p, li {
+	 	color: black;
+	 	
+	}
+
+	p, p#desc, li {
+		max-width: 700px;
+		font-size: 18px;
+		margin: 0 auto;
+		/*text-align: center;*/
+		margin-top:20px;
+		line-height: 2;
+
+	}
+
+	li {
+		margin-top:0;
+		/*margin-bottom: 0;*/
+	}
+	h3 {
+		margin: 10px;
+		margin-top:20px;
+	 	display: block;
+	 	clear: both;
+	 	text-align: center;
+	 	margin-top:60px;
+	}
+
+	#homeLink {
+		font-size: 13px;
+		/*float: right;*/
+		margin: 10px;
+	}
+
+	#logo {
+		float: left;
+		margin: 10px;
+		width: 120px;
+	}
+
+	ul {
+		margin-left: 70px;
+	}
+
+	#container {
+		height: 600px;
+	}
+	#icon {
+		width: 80px;
+		margin: 0 auto;
+		display: block;
+		margin-top:25px;
+		margin-bottom: 0;
+	}
+</style>
+
+
+
+<a href="/" id="homeLink"><img id="logo"></a>
+
+
+<h3>Campus Founder Program</h3>
+<img id="icon">
+<div id="container">
+<p id="desc">Notice is the anonymous social network for your campus. We’re one of the fastest growing apps in the world, and we’re looking for Campus Founders to oversee all Notice marketing and social activities at their campus.</p>
+
+<p style="font-weight:500; margin-top:20px">Apply to join us if</p>
+
+<ul>
+	<li>People love you and you love people</li>
+	<li>You’re hella creative</li>
+	<li>You’re as hard working as <a target="_blank" href="http://www.businessinsider.com/17-examples-of-kobe-bryants-insane-work-ethic-2013-8?op=1">Kobe</a></li>
+	<li>You’re obsessed with Notice</li>
+	<li>You wanna be a part of something amazing, starting now</li>
+</ul>
+
+<p>If you’re down, post the best notice you can think of and send us a screenshot + your resume at <a href="mailto:founders@trynotice.com">founders@trynotice.com</a>  </p>
+
+<p>Love, <br> Team Notice</p>
+
+</div>
