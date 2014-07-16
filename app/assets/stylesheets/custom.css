@@ -5,14 +5,15 @@
 }
 
 body {
-	background-color: #9662cb;
+	background-color: white; /* #9662cb */
 	
 	font-family: "Helvetica Neue", arial;
 	/*font-weight: thin;*/
-	color: white;
+	color: black;
 	font-size: 30px;
 
 }
+
 
 i {
 	color: lightblue;
@@ -38,7 +39,7 @@ i {
  	width: 450px;
  	height: 60px;
  	border-radius: 5px;
- 	border: 1px solid purple;
+ 	border: 1px solid black;
  	padding: 5px 5px;
  	font-size: 25px;
  	font-weight: bold;
@@ -54,18 +55,18 @@ i {
  	float: left;
  	font-weight: bold;
  	background: transparent;
- 	color: white;
+ 	color: black;
  	margin-left: 10px;
  	height: 60px;
  	border-radius: 5px;
- 	border: 1px solid white;
+ 	border: 1px solid black;
  	padding: 5px 10px 5px 10px;
  	font-size: 15px;
  }
 
  #textLinkBtn:hover {
- 	background: white;
- 	color: purple;
+ 	background: black;
+ 	color: black;
  	cursor: pointer;
  }
 
@@ -90,7 +91,7 @@ i {
  }
 
  #footer li a {
- 	color: white;
+ 	color: black;
  	font-weight: bold;
  	text-decoration: none;
  	font-size: 20px;
@@ -106,17 +107,21 @@ i {
  	
  	/*width: 500px;*/
  	/*height: 50px;*/
- 	text-align: center;
+ 	text-align: left;
  	font-weight: 100 !important;
+ 	font-family: "Georgia";
+ 	/* font-family: "HelveticaNeue-Medium"; */
  	/*color: #ffd466;*/
  	/*margin: 0 auto;*/
  	font-size: 50px;
+ 	margin-left: 200px;
  	margin-bottom: 20px;
- 	margin-top:-30px;
+ 	margin-top:120px;
  }
 
  #noticeLogo {
- 	width: 140px;
+ 	font-family: "Century Gothic";
+ 	/* width: 140px; */
  	margin-top:10px;
  }
 

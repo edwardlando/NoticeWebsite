@@ -7,14 +7,15 @@
     var randomIndex = Math.floor(Math.random()*13)+1;
     // console.log(randomIndex);
     $("#noticeFace").attr("src", "assets/noticeFaces/"+ randomIndex +".png");
-    $("#noticeLogo").attr("src", "assets/noticeLogo.png");
+    //$("#noticeLogo").attr("src", "assets/noticeLogo.png");
     $("#ypluse").attr("src", "assets/ypluse.jpg");
     
   });
 </script>
-<img id="noticeLogo">
-<center><img id="noticeFace"></center>
-<div id="tagLine">Share anonymously with people like you</div>
+<!--<img id="noticeLogo">-->
+<div id="noticeLogo" align="center">notice</div>
+<!-- <img id="noticeFace"> -->
+<div id="tagLine" align="center">Share Anonymously <br/> With People <br/> Like <br/> You</div>
 <!-- <div id="btnContainer">
 	<input type="text" placeholder="ENTER PHONE #" id="phoneNumberInput"/> 
 	<button id="textLinkBtn">GET DOWNLOAD LINK</button>

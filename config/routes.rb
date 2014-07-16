@@ -7,6 +7,8 @@ NoticeWebsite::Application.routes.draw do
 
   get "static_pages/privacy"
 
+  get "static_pages/terms"
+
   get "static_pages/jobs"
 
   get "static_pages/contact"
