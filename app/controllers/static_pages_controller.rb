@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  layout "no_footer", :except => "home"
+
   def home
   end
 
@@ -6,6 +8,9 @@ class StaticPagesController < ApplicationController
   end
 
   def press
+  end
+
+  def terms
   end
 
   def privacy
