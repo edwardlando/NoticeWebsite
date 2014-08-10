@@ -5,11 +5,11 @@
 }
 
 body {
-	background-color: white; /* #9662cb */
+	background-color: #a27cce; /* #9662cb */
 	
 	font-family: "Helvetica Neue", arial;
 	/*font-weight: thin;*/
-	color: black;
+	color: white;
 	font-size: 30px;
 
 }
@@ -20,18 +20,13 @@ i {
 	font-weight: bold;
 }
 
-#logo_img {
-	display: block;
-	margin: 0 auto;
-	margin-top: 80px;
-	width: 250px;
-}
 
 
-#noticeFace {
-	margin-top: 10px;
-	width: 400px;
+#noticeface {
+	margin-top: 100px;
+	width: 200px;
 }
+
 #phoneNumberInput {
  	/*margin: 0 auto;*/
 	float: left;
@@ -91,7 +86,7 @@ i {
  }
 
  #footer li a {
- 	color: black;
+ 	color: white;
  	font-weight: bold;
  	text-decoration: none;
  	font-size: 20px;
